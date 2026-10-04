@@ -1,0 +1,49 @@
+{
+  "participants": [
+    {"name": "Alice Example"},
+    {"name": "Bob Example"}
+  ],
+  "messages": [
+    {
+      "sender_name": "Bob Example",
+      "timestamp_ms": 1449259924663,
+      "content": "Tere Ã¤ra, kuidas lÃ¤heb?",
+      "type": "Generic",
+      "reactions": [{"reaction": "😆", "actor": "Alice Example"}]
+    },
+    {
+      "sender_name": "Alice Example",
+      "timestamp_ms": 1449259938077,
+      "content": "HÃ¤sti! :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Bob Example",
+      "timestamp_ms": 1449259999999,
+      "type": "Generic",
+      "photos": [{"uri": "messages/inbox/alice_100000000000001/photos/abc.jpg", "creation_timestamp": 1449259999}]
+    },
+    {
+      "sender_name": "Alice Example",
+      "timestamp_ms": 1449260000000,
+      "type": "Generic",
+      "share": {"link": "http://kino.ee/Event/3753/", "share_text": "Example movie"}
+    },
+    {
+      "sender_name": "Bob Example",
+      "timestamp_ms": 1449260001000,
+      "is_unsent": true,
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Alice Example",
+      "timestamp_ms": 1449260002000,
+      "content": "",
+      "call_duration": 120,
+      "type": "Call"
+    }
+  ],
+  "title": "Bob Example",
+  "is_still_participant": true,
+  "thread_path": "inbox/alice_100000000000001"
+}

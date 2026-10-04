@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# local exports / extracted archives
+*.zip
+/extracted/

@@ -1,0 +1,17 @@
+{
+  "participants": [
+    {"name": "Alice Example"},
+    {"name": "Bob Example"}
+  ],
+  "messages": [
+    {
+      "sender_name": "Bob Example",
+      "timestamp_ms": 1449261000000,
+      "content": "A second file for the same thread.",
+      "type": "Generic"
+    }
+  ],
+  "title": "Bob Example",
+  "is_still_participant": true,
+  "thread_path": "inbox/alice_100000000000001"
+}
